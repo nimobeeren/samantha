@@ -1,0 +1,6 @@
+__pycache__/
+node_modules/
+.env
+*.mp3
+*.wav
+*.opus
