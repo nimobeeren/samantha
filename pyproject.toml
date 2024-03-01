@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "samantha"
+version = "0.1.0"
+description = ""
+authors = ["Nimo Beeren <nimobeeren@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+PyAudio = "^0.2.14"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+jupyter = "^1.0.0"
+ipython = "^8.22.1"
+nbstripout = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
